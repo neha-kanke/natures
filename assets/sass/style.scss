@@ -1,0 +1,28 @@
+
+
+@import "./abstract/var";
+@import"./abstract/function";
+@import "./abstract/mixins";
+
+@import "./base/animation";
+@import "./base/base";
+@import "./base/typography";
+@import "./base/utility";
+
+
+@import "./components/blogcards";
+@import "./components/button";
+@import "./components/form";
+
+@import "./pages/about";
+@import "./pages/blogs";
+@import "./pages/contact";
+@import "./pages/home";
+@import "./pages/services";
+
+
+@import "./layout/footer";
+@import "./layout/grid";
+@import "./layout/header";
+@import "./layout/header";
+@import "./layout/navigation"

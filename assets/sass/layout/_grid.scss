@@ -1,0 +1,25 @@
+.container{
+max-width:1140px ;// for large screen who width is greater than 1140
+width:100%; // for smaller screen who width is <=1140 px
+margin:  0 auto;
+
+}
+[class^="col-"]{
+    padding: 0 1.5rem;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-3{
+    width:calc(100% * 3/12);
+    flex-basis: 0 0 calc(100% * 3/12);
+}
+.col-4{
+    width:calc(100% * 4/12);
+    flex-basis: 0 0 calc(100% * 4/12);
+}
+.col-9{
+    width:calc(100% * 9/12);
+    flex-basis: 0 0 calc(100% * 9/12);
+}

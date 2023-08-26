@@ -1,0 +1,51 @@
+
+
+.header{
+//  background-color: $color-primary;
+background-image: linear-gradient(to right bottom,$color-primary-light-op,$color-primary-dark-op),url(/assets/images/hero-small.jpg);
+ height: 95vh;
+ background-position: center center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-attachment: fixed;
+ margin-bottom: 5rem;
+ @include atcenter;
+ clip-path: polygon(0 0,100% 0,100% 75%,0 100%);
+//  clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+//  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+ &-primary{
+    text-transform: uppercase;
+    color: $color-white;
+    position: relative;
+    &-main{
+        display: block;
+        letter-spacing: 3.3rem;
+        font-size: 6rem;
+        font-weight: 400;
+        animation: moveinleft 1s  ease-in-out 2;
+     }
+     &-sub{
+        display: block;
+        font-weight: 700;
+        font-size: 1rem;
+        letter-spacing: 1.6rem;
+        animation: moveinright 1s ease-in-out ;
+        margin-bottom: 2rem;
+    
+ }
+
+
+}
+.logo{
+    position:absolute;
+    width: 4rem;
+    height: 4rem;
+    top: 4rem;
+    left: 4rem;
+    img{
+        height: 100%;
+    }
+ }
+
+ 
+}
