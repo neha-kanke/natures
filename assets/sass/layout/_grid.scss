@@ -4,7 +4,7 @@ width:100%; // for smaller screen who width is <=1140 px
 margin:  0 auto;
 
 }
-[class^="col-"]{
+[class^= "col-"]{
     padding: 0 1.5rem;
 }
 .row{
@@ -22,4 +22,12 @@ margin:  0 auto;
 .col-9{
     width:calc(100% * 9/12);
     flex-basis: 0 0 calc(100% * 9/12);
+}
+.col-12{
+    width:100%;
+    flex-basis: 0 0 100% ;  
+}
+.col-6{
+    width:50%;
+    flex-basis:  0 0 50%;
 }

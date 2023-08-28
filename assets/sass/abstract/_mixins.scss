@@ -3,3 +3,11 @@
     justify-content: center;
     align-items: center;
 }
+@mixin lg($direction, $colors...){
+    background-image: linear-gradient($direction,$colors);
+}
+@mixin backgroundclip{
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:transparent;
+}
